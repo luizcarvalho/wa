@@ -1,0 +1,4 @@
+- Remover chamadas SU 
+- Null Exceptions quando app sem su é iniciada
+- Alterar redes de acordo com o sinal
+- 

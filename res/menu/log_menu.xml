@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <item android:title="@string/log_clean" 
+    android:titleCondensed="@string/log_clean" 
+    android:id="@+id/log_clean"
+    android:icon="@drawable/ic_menu_clear_playlist"/>
+    
+        <item android:title="@string/log_refresh" 
+    android:titleCondensed="@string/log_refresh" 
+    android:id="@+id/log_refresh"
+    android:icon="@drawable/ic_menu_refresh"/>
+            <item android:title="@string/go_home" 
+    android:titleCondensed="@string/go_home" 
+    android:id="@+id/go_home"
+    android:icon="@drawable/ic_menu_home"/>
+</menu>

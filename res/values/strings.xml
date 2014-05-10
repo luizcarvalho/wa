@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Booting&#8230;</string>
+    <string name="app_name">Wireless Analizer</string>
+    <string name="app_icon_name">WA</string>
+    <string name="log_clean">Clear Log</string>
+    <string name="log_refresh">Refresh Log</string>
+    <string name="go_home">View Meter</string>
+    <string name="view_log">View Log</string>
+    <string name="log_title">Log</string>
+    <string name="splash_text">Enable WIFI, Mobile Data Network And Chose your Interfaces</string>
+    <string name="choose_wifi">Wifi Interface</string>
+    <string name="choose_mobile">Mobile Interface</string>
+    <string name="ok">Continuar</string>
+    <string name="stop_services">Parar Serviços</string>
+
+
+
+</resources>

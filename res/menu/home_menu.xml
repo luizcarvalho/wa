@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+  
+    <item android:title="@string/view_log" 
+    android:titleCondensed="@string/view_log" 
+    android:id="@+id/view_log"
+    android:icon="@drawable/ic_menu_view"/>
+    
+    <item android:title="@string/stop_services" 
+    android:titleCondensed="@string/stop_services" 
+    android:id="@+id/stop_services"
+    android:icon="@drawable/ic_menu_close_clear_cancel"/>
+</menu>

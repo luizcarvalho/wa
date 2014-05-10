@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+	package="br.com.redrails.wa" android:versionCode="6"
+	android:versionName="2.5">
+	<uses-sdk android:minSdkVersion="7" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	
+	<application android:icon="@drawable/icon" android:label="@string/app_icon_name">
+	<activity android:name="LogView" android:label="@string/log_title"
+			android:screenOrientation="portrait"/>
+		<activity android:name=".Home" android:label="@string/app_name"
+			android:screenOrientation="portrait"/>		
+		<activity android:name=".Initializing" android:label="@string/app_name"
+			android:screenOrientation="portrait"
+			android:noHistory="true">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+		</activity>
+
+		<service android:name=".ScanWifi">
+			<intent-filter>
+				<action android:name="WIFI" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</service>
+		
+		<service android:name=".ScanMobile">
+			<intent-filter>
+				<action android:name="MOBILE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</service>
+		
+		<service android:name=".WAService">
+			<intent-filter>
+				<action android:name="WASERVICE" />
+				<category android:name="android.intent.category.DEFAULT" />
+			</intent-filter>
+		</service>
+
+
+	</application>
+</manifest>
